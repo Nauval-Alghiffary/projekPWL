@@ -5,9 +5,10 @@ html{
     scroll-behavior: smooth;
 }
 #judul {
-    margin-top: 42vh;
-    margin-bottom: 42vh;
+    margin-top: 44vh;
+    margin-bottom: 44vh;
     text-align: center;
+    color: white;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -37,4 +38,40 @@ html{
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+body {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    overflow-x: hidden;
+  }
+#tombolbawah{
+    text-align: center;
+    margin-left: -16.5vh;
+}
+#kebawah{
+    color: rgba(0, 0, 0, 0.5);
+    animation: MoveUpDown 1.5s linear infinite;
+    position: absolute;
+    height: 20vh;
+    width: 30vh;
+    bottom: 0;
+}
+      
+@keyframes MoveUpDown {
+    0%, 100% {
+    bottom: 0;
+    }
+    50% {
+    bottom: 30px;
+    }
 }
