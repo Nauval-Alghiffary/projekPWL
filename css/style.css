@@ -5,8 +5,8 @@ html{
     scroll-behavior: smooth;
 }
 #judul {
-    margin-top: 44vh;
-    margin-bottom: 44vh;
+    margin-top: 45vh;
+    margin-bottom: 45vh;
     text-align: center;
     color: white;
 
@@ -74,4 +74,76 @@ body {
     50% {
     bottom: 30px;
     }
+}
+}
+li{
+    margin-left: 30px;
+}
+#utama{
+    margin: 0 10vh 10vh;
+    border-radius: 20px;
+    color: rgb(37, 22, 22);
+    background-color: #fdcb6e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+#list{
+    margin: 0 10vh 10vh;
+    border-radius: 20px;
+    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page1{
+    margin: 0 10vh 10vh;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page2{
+    margin: 0 10vh 10vh;
+    border-radius: 20px;
+    background-color: #fdcb6e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page3{
+    margin: 0 10vh 10vh;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page4{
+    margin: 0 10vh 10vh;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#tulisan{
+    margin: 70px 30px 0px 50px;
+    font-size: 3vh;
+}
+#buttonlist{
+    margin-top: 200px;
+}
+#tombolList{
+    position: relative;
+    bottom: 0px;
+}
+#lempar{
+    text-align: center;
+}
+#tengah{
+    text-align: center;
+    margin-top: 280px;
+}
+#tulisandiv{
+    float: left;
+    margin-right: 500px;
+}
+#gambarunsur{
+    text-align: center;
+    margin-top: 30px;
 }
