@@ -45,14 +45,16 @@ html{
   bottom: 0;
   width: 100vh;
   background-color: black;
-  color: white;
   text-align: center;
+  margin: -10;
 }
 body {
     background: #ff5f6d;
     background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
     background: linear-gradient(to right, #ff5f6d, #ffc371);
     overflow-x: hidden;
+    font-family: 'Rasa', serif;
+    font-weight: 300;
   }
 #tombolbawah{
     text-align: center;
@@ -91,11 +93,12 @@ li{
       -o-animation: fadein 2s; /* Opera < 12.1 */
          animation: fadein 2s;
 }
-#list{
+#fakultas{
     margin: 0 10vh 10vh;
     border-radius: 20px;
     background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
 }
 #page1{
     margin: 0 10vh 10vh;
@@ -125,9 +128,6 @@ li{
     margin: 70px 30px 0px 50px;
     font-size: 3vh;
 }
-#buttonlist{
-    margin-top: 200px;
-}
 #tombolList{
     position: relative;
     bottom: 0px;
@@ -146,4 +146,26 @@ li{
 #gambarunsur{
     text-align: center;
     margin-top: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+
+}
+
+.button {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.card{
+    padding-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
