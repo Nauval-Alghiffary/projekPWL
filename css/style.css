@@ -45,7 +45,7 @@ html{
   bottom: 0;
   width: 100vh;
   background-color: black;
-  text-align: center;
+  text-align: left;
   margin: 0;
 }
 body {
@@ -137,14 +137,15 @@ body {
     height: 90vh;
 }
 #page5{
-    background-color: #fdcb6e; 
+    background-color: 0; 
     text-align: center; 
     height: 100vh;
 }
 #footer{
-    background-color:  #e84545; 
+    background-color:  #313131; 
     text-align: center; 
     height: 30vh;
+    color: white;
 }
 #tulisan{
     margin: 70px 30px 0px 50px;
