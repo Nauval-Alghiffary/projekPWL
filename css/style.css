@@ -135,19 +135,10 @@ body {
     text-align: center; 
     height: 90vh;
 }
-#page4{
-    margin: 0 10vh 10vh;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color:  #a29bfe; 
-    text-align: center; 
-    height: 90vh;
-}
 #page5{
     background-color: #fdcb6e; 
     text-align: center; 
-    height: 90vh;
+    height: 100vh;
 }
 #footer{
     background-color:  #e84545; 
