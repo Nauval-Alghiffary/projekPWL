@@ -46,7 +46,7 @@ html{
   width: 100vh;
   background-color: black;
   text-align: center;
-  margin: -10;
+  margin: 0;
 }
 body {
     background: #ff5f6d;
@@ -55,6 +55,8 @@ body {
     overflow-x: hidden;
     font-family: 'Rasa', serif;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
   }
 #tombolbawah{
     text-align: center;
@@ -78,55 +80,84 @@ body {
     }
 }
 }
-li{
-    margin-left: 30px;
+.nav-item{
+    margin-left: 50px;
 }
 #utama{
     margin: 0 10vh 10vh;
     border-radius: 20px;
-    color: rgb(37, 22, 22);
+    color: white;
     background-color: #fdcb6e;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
      -ms-animation: fadein 2s; /* Internet Explorer */
       -o-animation: fadein 2s; /* Opera < 12.1 */
          animation: fadein 2s;
+    height: 90vh; 
+    width: 100vh; 
+    flex-direction: row;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #fakultas{
     margin: 0 10vh 10vh;
     border-radius: 20px;
-    background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 30px;
+    padding: 30px;
+    background-color:  #fdcb6e; 
+    text-align: center; 
+    height: 95vh;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #page1{
     margin: 0 10vh 10vh;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  #fdcb6e;
+    padding: 40px;
+    height: 90vh;
 }
 #page2{
     margin: 0 10vh 10vh;
     border-radius: 20px;
     background-color: #fdcb6e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center; 
+    height: 90vh;
 }
 #page3{
     margin: 0 10vh 10vh;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  #a29bfe; 
+    text-align: center; 
+    height: 90vh;
 }
 #page4{
     margin: 0 10vh 10vh;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  #a29bfe; 
+    text-align: center; 
+    height: 90vh;
+}
+#page5{
+    background-color: #fdcb6e; 
+    text-align: center; 
+    height: 90vh;
+}
+#footer{
+    background-color:  #e84545; 
+    text-align: center; 
+    height: 30vh;
 }
 #tulisan{
     margin: 70px 30px 0px 50px;
-    font-size: 3vh;
+    font-size: 3.8vh;
+    color: rgb(75, 75, 75);
 }
 #tombolList{
     position: relative;
@@ -155,6 +186,8 @@ h1, h2, h3, h4, h5, h6 {
 p{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
+    font-size: 25px;
+    color: rgb(75, 75, 75);
 
 }
 
@@ -167,5 +200,23 @@ p{
 }
 .card{
     padding-top: 25px;
+    opacity: 0.6;
+}
+.card:hover{
+    opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+    margin: 200px 0px;
+    clear: both;
+}
+i{
+    margin: 10px;
+    color: rgb(73, 73, 73);
+}
+.bi-caret{
+    margin: 100px;
+}
+.center{
+    text-align: center;
 }
